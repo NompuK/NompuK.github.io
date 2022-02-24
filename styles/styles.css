@@ -9,5 +9,10 @@ p, h2, ul {
 }
 
 #os_trailer:hover {
-	color:blue;
-} 
+	color:red;
+}
+
+img[src]:hover {
+	/* seitlicher Versatz - vertikaler Versatz - blur - Farbe */
+	box-shadow: 5px 10px 8px green;
+}
